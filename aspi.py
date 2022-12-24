@@ -405,5 +405,5 @@ def randpass():
 if __name__ == '__main__':
     print("Api is up and running - 127.0.0.1:5000")
     #app.run(ip="77.68.54.160",port=6969,debug=True) 
-    serve(app, port=6969)
+    serve(app)
     
